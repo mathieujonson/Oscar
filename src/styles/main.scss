@@ -1,11 +1,23 @@
+@import './variables/variables';
+@import './fonts/system';
 @import './partials/reset';
 @import './partials/header';
 @import './partials/footer';
 @import './partials/single-player';
 
 body {
+  font-family:system-ui;
+  background-color:$restingBackgroundColor;
+  color:$mainFontColor;
   padding-bottom:40px;
+  &.warning {
+    background-color:$warningBackgroundColor;
+  }
+  &.stop {
+    background-color:$stopBackgroundColor;
+  }
 }
+
 .content-container {
   padding:20px;
 }

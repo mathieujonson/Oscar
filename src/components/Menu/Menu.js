@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 
 class Menu extends React.Component {
   componentDidMount() {
-      document.title = 'Menu - Hangs.me'
+      document.title = 'Menu - Oscar'
   }
 
   render() {

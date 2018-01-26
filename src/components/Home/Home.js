@@ -3,13 +3,13 @@ import {connect} from 'react-redux'
 
 class Home extends Component {
   componentDidMount() {
-      document.title = 'Hangman - Hangs.me'
+      document.title = 'Oscar - Team Stand-Up Tracker'
   }
 
   render() {
     return (
       <div>
-        Hangman game coming soon!
+        Oscar coming soon!
       </div>
     )
   }

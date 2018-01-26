@@ -1,3 +1,4 @@
+/* VESTIGE CODE, EXAMPLE PURPOSES ONLY */
 import ActionTypes from '../action-types';
 import database from './database';
 
@@ -18,6 +19,13 @@ export function guessLetter(letter) {
     return {
         type: ActionTypes.SingleGuessLetter,
         letter
+    }
+}
+
+export function updateStep(step) {
+    return {
+        type: ActionTypes.SingleUpdateStep,
+        step
     }
 }
 

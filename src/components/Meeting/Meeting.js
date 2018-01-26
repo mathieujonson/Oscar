@@ -1,19 +1,19 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
-class Multiplayer extends React.Component {
+class Meeting extends React.Component {
   componentDidMount() {
-      document.title = 'Multiplayer - Hangs.me'
+      document.title = 'Meeting - Oscar'
   }
 
   render() {
     return (
       <div>
-        Multiplayer coming soon!
+        Meetings coming soon!
       </div>
     )
   }
 }
 
 export default connect(
-)(Multiplayer)
+)(Meeting)
