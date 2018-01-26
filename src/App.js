@@ -17,7 +17,7 @@ class App extends Component {
                     <div className="content-container">
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/multiplayer" component={Meeting} />
+                            <Route path="/meeting" component={Meeting} />
                             <Route path="/menu" component={Menu} />
                             <Route component={NotFound} />
                         </Switch>
